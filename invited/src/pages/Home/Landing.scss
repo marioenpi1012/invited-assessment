@@ -61,7 +61,6 @@
 @media (min-width : 768px){
     .Landing {
         padding: 0;
-        margin: 5rem !important;
         .heading_container {
             .heading {
                 font-size: 4rem;
@@ -82,4 +81,35 @@
             }
         }
     }
+}
+@media (min-width : 1440px){
+    .Landing{
+        flex-direction: row-reverse   ;
+        padding: 2rem 5rem;
+        padding-right: 7rem;
+        .heading_container{
+            align-items:flex-end;
+            width: 100%;
+            .subheading{
+                max-width: 80%;
+                width: 100%;
+                text-align: end;
+                font-size: 1.5rem;
+                margin: 0;
+            }
+        }
+        .events_container{
+            img{
+                max-width: 440px;
+                max-height:775.69px;
+            }
+            .create_event_btn{
+                position: absolute;
+                right: 0;
+                bottom: 16rem;
+                margin-right: 7rem;
+            }
+        }
+    }
+    
 }
